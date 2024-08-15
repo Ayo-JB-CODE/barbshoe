@@ -1,0 +1,30 @@
+.exclusive_container {
+    max-width: 75%;
+    height: 70vh;
+    background-image: url(../../assets/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 10px;
+    opacity: 0.90;
+}
+
+.exclusive_content h1 {
+    font-size: 95px;
+    color: blanchedalmond;
+}
+
+.exclusive_content span {
+    color: rgb(211, 23, 54);
+    background: rgba(247, 242, 242, 0.2);
+    border-radius: 10px;
+    padding: 0;
+}
+
+.exclusive_content p {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 0 0;
+    color: blanchedalmond;
+}

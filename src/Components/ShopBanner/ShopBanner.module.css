@@ -1,0 +1,35 @@
+.shopbanner_hero {
+    max-width: 95%;
+    height: 60vh;
+    background-image: url(../../assets/banner8.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0px auto;
+    padding: 40px;
+    border-radius: 10px;
+    opacity: 0.90;
+}
+
+.shopbanner_hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopbanner_content h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(226, 216, 218);
+}
+
+.shopbanner_content h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(250, 0, 0);
+    margin: 10px 0 0px 0;
+}
+
+.shopbanner_content h2 span {
+    color: rgb(226, 216, 218);
+}

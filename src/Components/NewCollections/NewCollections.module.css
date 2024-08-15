@@ -1,0 +1,21 @@
+.newCollections_container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+
+.newCollections_container hr {
+    width: 260px;
+    margin: 0 auto;
+    border: 2px groove darkred;
+}
+
+.newCollections_items {
+    width: 92%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 0px;
+    margin: 30px auto;
+    margin-top: 50px;
+}

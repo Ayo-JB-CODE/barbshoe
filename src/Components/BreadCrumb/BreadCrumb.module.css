@@ -1,0 +1,11 @@
+.breadcrumb_container {
+    margin: 20px 60px 20px 60px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.breadcrumb_container img {
+    margin: 0 10px;
+}

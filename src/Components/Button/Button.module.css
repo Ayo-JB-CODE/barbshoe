@@ -1,0 +1,23 @@
+.button {
+    width: 200px;
+    height: 60px;
+    color: rgb(226, 216, 218);
+    background: transparent;
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    border: none;
+    border-top: 3px solid rgb(226, 216, 218);
+    border-bottom: 3px solid rgb(226, 216, 218);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    background: #f704046b;
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(0.95);
+}
