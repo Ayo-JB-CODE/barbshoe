@@ -11,6 +11,7 @@ const NewCollections = () => {
             <div className={styles.newCollections_items}>
                 {newCollectionsItems.map((item, i) => {
                     return <Items
+                        id={item.id}
                         image={item.img}
                         title={item.title}
                         new_price={item.new_price}

@@ -1,13 +1,11 @@
 import styles from './ShopCategory.module.css';
 import dropdown_icon from '../../assets/dropdown_icon.png';
 import itemProducts from '../../../data';
-import { ShopContext } from '../../Context/ShopContext';
 import Items from '../Items/Items';
 import Button from '../Button/Button';
-import { Link } from 'react-router-dom';
 
-const ShopCategory = (props) => {
-    const { itemProducts } = useContext(ShopContext);
+const ShopCategory = () => {
+
     return (
         <div className={styles.shopcategory_container}>
             <div className={styles.shopcategory_sort}>

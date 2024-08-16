@@ -11,6 +11,7 @@ const PopularProducts = () => {
             <div className={styles.popular_items}>
                 {popularItems.map((item, i) => {
                     return <Items
+                        id={item.id}
                         image={item.img}
                         title={item.title}
                         new_price={item.new_price}
