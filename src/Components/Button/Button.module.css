@@ -21,3 +21,15 @@
 .button:active {
     transform: scale(0.95);
 }
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 600px) {
+    .button {
+        width: 180px;
+        height: 50px;
+        font-size: 21px;
+        font-weight: 600;
+    }
+}

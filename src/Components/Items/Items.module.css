@@ -1,5 +1,5 @@
 .item_container {
-    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .img_container img {
@@ -39,30 +39,21 @@
     text-decoration: line-through;
 }
 
-.add_tocart {
-    display: flex;
-    justify-content: center;
+/* RESPONSIVENESS */
+@media only screen and (max-width: 992px) {
+    .item_container {
+        max-width: 90%;
+        margin: 0;
+    }
 }
 
-.add_tocart button {
-    font-size: 12px;
-    font-weight: 600;
-    padding: 5px 10px;
-    background: rgb(177, 5, 5);
-    color: white;
-    border-radius: 12px;
-    border: 0.5px solid rgb(187, 177, 177);
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-}
+@media only screen and (max-width: 600px) {
+    .item_container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
 
-.add_tocart button:hover {
-    transform: scale(1.01);
-    background: grey;
-    color: white;
-}
-
-.add_tocart button:active {
-    transform: scale(0.5);
-    background: black;
+    .img_container img {
+        width: 100%;
+    }
 }

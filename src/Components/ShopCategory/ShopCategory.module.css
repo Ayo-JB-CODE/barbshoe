@@ -32,3 +32,29 @@
     width: 80%;
     padding: 5% 40% 0;
 }
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 992px) {
+    .shopcategory_sort {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .shopcategory_sort p {
+        margin-bottom: 10px;
+    }
+
+    .shopcategory_items {
+        width: 95%;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        gap: 1px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .shopcategory_items {
+        grid-template-columns: 1fr;
+        gap: 1px;
+    }
+}

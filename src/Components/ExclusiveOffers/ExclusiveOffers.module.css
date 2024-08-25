@@ -28,3 +28,38 @@
     margin: 15px 0 0;
     color: blanchedalmond;
 }
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 992px) {
+    .exclusive_container {
+        max-width: 95%;
+        height: 70vh;
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    .exclusive_content h1 {
+        width: 100%;
+        font-size: 60px;
+        line-height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .exclusive_content p {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 15px 0 0;
+        color: blanchedalmond;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .exclusive_container {
+        height: 50vh;
+    }
+
+    .exclusive_content h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}

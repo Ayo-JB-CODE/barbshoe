@@ -117,3 +117,69 @@
     color: white;
     cursor: pointer;
 }
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 992px) {
+    .cartitems {
+        margin: 70px 10px;
+    }
+
+    .cartitems-format-main {
+        gap: 15px;
+        padding: 10px 0;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .cartitems-format {
+        font-size: 14px;
+    }
+
+    .carticon-product-icon {
+        height: 72px;
+    }
+
+    .cartitems-remove-icon {
+        width: 13px;
+        margin: 0 20px;
+    }
+
+    .cartitems-quantity {
+        width: 55px;
+        height: 45px;
+        border: 1px solid #ebebeb;
+    }
+
+    .cartitems-down {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .cartitems-total {
+        width: 100%;
+        margin-right: 0;
+        gap: 0;
+    }
+
+    .cartitems-total button {
+        width: 50%;
+        height: 50px;
+        font-size: 15px;
+        margin: 0 0 30px 0;
+    }
+
+    .cartitems-promobox {
+        display: flex;
+        width: 45%;
+        padding-left: 10px;
+        height: 50px;
+    }
+
+    .cartitems-promobox button {
+        width: 50%;
+        padding: 0 10px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {}

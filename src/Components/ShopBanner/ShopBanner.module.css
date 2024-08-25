@@ -33,3 +33,31 @@
 .shopbanner_content h2 span {
     color: rgb(226, 216, 218);
 }
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 992px) {
+    .shopbanner_hero {
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    .shopbanner_content h1 {
+        font-size: 70px;
+        font-weight: 600;
+    }
+
+    .shopbanner_content h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .shopbanner_content h1 {
+        font-size: 50px;
+    }
+
+    .shopbanner_content h2 {
+        font-size: 25px;
+    }
+}

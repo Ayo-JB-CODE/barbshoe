@@ -67,3 +67,37 @@
     color: #464040;
     margin-top: 25px;
 }
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 992px) {
+    .footer_logo {
+        width: 150px;
+        height: 50px;
+    }
+
+    .footer_logo a {
+        width: 200px;
+        height: 70px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .footer_menus {
+        width: 50%;
+    }
+
+    .footer_social_icons {
+        width: 50%;
+    }
+
+    .footer_social_icons img {
+        width: 20px;
+    }
+
+    .copy_right p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 600px) {}

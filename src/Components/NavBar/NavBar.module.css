@@ -33,10 +33,6 @@ a {
     background: rgba(206, 195, 186, 0.5);
 }
 
-.nav_logo img {
-    width: 70px;
-}
-
 .nav_menus {
     width: 30%;
     display: flex;
@@ -67,7 +63,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .nav_login {
@@ -133,4 +128,70 @@ a {
     color: white;
     position: absolute;
     left: 30px;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 992px) {
+    .nav_bar {
+        background: blueviolet;
+        padding: 0 2.5%;
+        height: 50px;
+    }
+
+    .nav_logo {
+        gap: 2px;
+    }
+
+    .nav_logo a {
+        width: 130px;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 5px;
+        padding: 2px;
+    }
+
+    .nav_menus {
+        display: none;
+    }
+
+    .login_n_cart {
+        width: 20%;
+        margin-right: 5px;
+    }
+
+    .nav_login div a {
+        font-size: 12px;
+        color: white;
+    }
+
+    .cart_icon img {
+        width: 30px;
+    }
+
+    .cart_count {
+        width: 20px;
+        height: 20px;
+        font-size: 11px;
+        left: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav_bar {
+        background: #FF4141;
+    }
+
+    .nav_logo a {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .login_n_cart {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    .nav_login div a {
+        font-size: 10px;
+    }
 }
