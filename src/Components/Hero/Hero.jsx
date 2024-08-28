@@ -1,6 +1,8 @@
 import styles from './Hero.module.css';
 import products_6 from '../../assets/product6.png';
 import Button from '../Button/Button';
+import { Link } from 'react-router-dom';
+
 const Hero = () => {
     return (
         <div className={styles.hero_container}>
@@ -12,7 +14,7 @@ const Hero = () => {
                     <div><div><h1>AFFORDABLE</h1></div></div>
                 </div>
                 <h1>FOR ALL OCASSIONS</h1>
-                <Button content='Learn More' />
+                <Link to="/Shop"><Button content='Learn More' /></Link>
             </div>
             <img src={products_6} alt="" />
         </div>

@@ -35,9 +35,9 @@ const ProductDisplay = (props) => {
                     <div className="productdisplay-right-price-new">${product.new_price}</div>
                 </div>
                 <div className="productdisplay-right-description">
-                    A lightweight, usually knitted, pullover shirt,
-                    close-fitting and a round neckline and short sleeves,
-                    worn as undershirt or outer garment.
+                    A lightweight, usually leather, animal skin or cotton shoe,
+                    close-fitting and a strong footware,
+                    worn official use, sport or any other function.
                 </div>
                 <div className="productdisplay-right-size">
                     <h1>Select Size</h1>

@@ -130,11 +130,10 @@ a {
     left: 30px;
 }
 
+
 /* RESPONSIVENESS */
 @media only screen and (max-width: 992px) {
     .nav_bar {
-        background: blueviolet;
-        padding: 0 2.5%;
         height: 50px;
     }
 
@@ -151,7 +150,13 @@ a {
     }
 
     .nav_menus {
-        display: none;
+        width: 50%;
+        margin: 0 10%;
+    }
+
+    .nav_menus a {
+        font-size: 12px;
+        font-weight: bold;
     }
 
     .login_n_cart {
@@ -161,7 +166,7 @@ a {
 
     .nav_login div a {
         font-size: 12px;
-        color: white;
+        font-weight: bold;
     }
 
     .cart_icon img {
@@ -177,18 +182,27 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-    .nav_bar {
-        background: #FF4141;
-    }
-
     .nav_logo a {
         width: 100px;
         font-size: 14px;
     }
 
+    .nav_menus {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .nav_menus a {
+        font-size: 10px;
+    }
+
     .login_n_cart {
         width: 30%;
-        margin-right: 5px;
+        gap: 10px;
+    }
+
+    .login_n_cart img {
+        width: 28px;
     }
 
     .nav_login div a {

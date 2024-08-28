@@ -4,6 +4,7 @@ import cart_icon from '../../assets/cart_icon.png';
 import user_icon from '../../assets/user-icon.svg';
 import { Link } from 'react-router-dom';
 import { ShopContext } from '../../Context/ShopContext';
+import close_btn from '../../assets/cart_cross_icon.png';
 
 
 const NavBar = () => {
@@ -28,7 +29,6 @@ const NavBar = () => {
                     <div><Link onClick={() => { setMenu("cart") }} to="/Cart"><img src={cart_icon} alt="cart_icon" /></Link>{menu === "cart" ? <hr /> : <></>}</div>
                     <div className={styles.cart_count}>{getTotalCartItems()}</div>
                 </div>
-
             </div>
         </div>
     )
